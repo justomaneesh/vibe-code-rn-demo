@@ -73,3 +73,39 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# ===============================
+# AI / Vibe Coding artifacts
+# ===============================
+.ai/
+.llm/
+.prompts/
+.sessions/
+.vibe/
+.cursor/
+.claude/
+.openai/
+
+
+# ===============================
+# Secrets
+# ===============================
+*.pem
+*.key
+*.keystore
+
+# ===============================
+# Cursor / AI tools
+# ===============================
+.cursor/
+.cursors/
+.cursorrules
+.cursorignore
+
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+hs_err_pid*.log
+replay_pid*.log
